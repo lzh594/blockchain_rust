@@ -1,6 +1,11 @@
 [workspace]
+resolver="2"
 members = [
     "main",
     "core",
     "utils",
 ]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["liuzh594@qq.com"]
